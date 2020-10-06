@@ -30,7 +30,7 @@
                 <div class="card-body">
                   <h5 class="card-title">PLAYSTATION 2</h5>
                   <p class="card-text">Rp.200.000</p>
-                  <a href="#" class="btn btn-primary">Sewa Sekarang</a>
+                  <a href="" class="btn btn-primary">Sewa Sekarang</a>
                 </div>
               </div>
             </div>
@@ -221,24 +221,24 @@
     <script>
         function combo() {
             var kodesewa = (document.forminput.inputkodesewa.value);
-            var namamenyewa = "";
+            var namabarang = "";
             var hargamenyewa = 0.0;
 
             if (kodesewa == "ajeb1") {
-                namamenyewa = "PLAYSTATION 2";
+                namabarang = "PLAYSTATION 2";
                 hargamenyewa = 100000;
-            } else if (kodebarang == "ajeb2") {
-                namamenyewa = "PLAYSTATION 3";
+            } else if (kodesewa == "ajeb2") {
+                namabarang = "PLAYSTATION 3";
                 hargamenyewa = 200000;
-            } else if (kodemenyewa == "ajeb3") {
-                namamenyewa = "PLAYSTATION 4";
+            } else if (kodesewa == "ajeb3") {
+                namabarang = "PLAYSTATION 4";
                 hargamenyewa = 300000;
             } else {
-                namamenyewa = "";
+                namabarang = "";
                 hargamenyewa = 0;
             }
 
-            document.forminput.inputnamamenyewa.value = namamenyewa;
+            document.forminput.inputnamabarang.value = namabarang;
             document.forminput.inputhargamenyewa.value = eval(hargamenyewa);
         }
 
