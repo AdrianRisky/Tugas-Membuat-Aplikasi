@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penyewaan</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <style>
+        .container {
+            width: 920px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <h1>RENTAL PLAYSTATION</h1>
+    </center>
+        
+          <center><div class="row">
+            <div class="col" style="display: flex;text-align: center;">
+              <div class="card" style="width: 18rem;">
+                <img src="https://cf.shopee.co.id/file/c85580524fc68dbc5bd0a8d282f281fb" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Asus A409Ua-Bv35iT</h5>
+                  <p class="card-text">Rp.6.000.000</p>
+                  <a href="#" class="btn btn-primary">Beli Sekarang</a>
+                </div>
+              </div>
+            </div>
+        
+            <div class="col" style="display: flex;text-align: center;">
+              <div class="card" style="width: 18rem;">
+                <img src="https://id-test-11.slatic.net/p/5c880b5ef54cd65672ad7a1039222851.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Asus ZenBook UX333FAC A5O25T</h5>
+                  <p class="card-text">Rp.13.500.000</p>
+                  <a href="#" class="btn btn-primary">Beli Sekarang</a>
+                </div>
+              </div>
+            </div>
+        
+            <div class="col" style="display: flex; text-align: center;">
+              <div class="card" style="width: 18rem;">
+                <img src="https://p.ipricegroup.com/uploaded_aee7667f790eb51f223c2ecb60d3b7a0.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Asus X455LJ</h5>
+                  <p class="card-text">Rp.6.699.999</p>
+                  <a href="#" class="btn btn-primary">Beli Sekarang</a>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col" style="display: flex; text-align: center;">
+              <div class="card" style="width: 18rem;">
+                <img src="https://armadakomputer.com/images/product/52d995664799cce820a70707c83533ed.png"  class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Asus ROG Strix Hero II</h5>
+                  <p class="card-text">Rp.30.500.000</p>
+                  <a href="#" class="btn btn-primary">Beli Sekarang</a>
+                </div>
+            </div>
+          </div>
+          
+      
+        </div> </center>
+    
+    <div class="container">
+        <form name="forminput">
+            <div class="form-group">
+                <div class="row">
+
+                    <!-- BAG INPUT! -->
+                    <div class="col-sm">
+                        <div class="card text-white">
+                            <h5 class="card-header bg-dark">Form Input</h5>
+                            <div class="card-body">
+                                <table class="table table-borderless">
+                                    <tr>
+                                        <td>Kode Sewa:</td>
+                                        <td>
+                                            <select name="inputkodesewa" class="form-control" onclick="combo()">
+                                                <option></option>
+                                                <option value="ajeb1">PYTN2</option>
+                                                <option value="ajeb2">PYTN3</option>
+                                                <option value="ajeb3">PYTN4</option>
+                                            </select>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Nama Penyewa:</td>
+                                        <td><input class="form-control" type="text" name="inputnamapenyewa"></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Nama Barang:</td>
+                                        <td><input class="form-control" type="text" name="inputnamabarang">
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Harga Menyewa:</td>
+                                        <td><input class="form-control" type="text" name="inputhargamenyewa">
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Jumlah Menyewa:</td>
+                                        <td><input class="form-control" type="number" name="inputjumlahmenyewa">
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Tgl Menyewa:</td>
+                                        <td><input class="form-control" type="date" name="inputtglmenyewa">
+                                        </td>
+                                    </tr>
+
+                                    <td colspan="2">
+                                        <input type="button" class="form-control btn-outline-dark" value="Total"
+                                            onclick="hitungtotal()">
+                                    </td>
+
+                                    <tr>
+                                        <td>Total:</td>
+                                        <td><input class="form-control" type="text" name="inputtotal"></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Bayar:</td>
+                                        <td><input class="form-control" type="text" name="inputbayar"></td>
+                                    </tr>
+
+                                    <td colspan="2">
+                                        <input class="form-control btn-outline-dark" type="button" value="Bayar"
+                                            onclick="hitungkembalian()">
+                                    </td>
+
+                                    <tr>
+                                        <td><label>Kembalian:</label></td>
+                                        <td><input class="form-control" type="text" name="inputkembalian">
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td colspan="2">
+                                            <div class="row">
+                                                <div class="col-sm">
+                                                    <input class="form-control btn-outline-dark" type="button"
+                                                        value="Sewa" onclick="simpan()"><br>
+                                                </div>
+                                                <div class="col-sm">
+                                                    <input class="form-control btn-outline-dark" type="reset"
+                                                        value="Hapus">
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- BAG OUTPUT! -->
+                    <div class="col-sm">
+                        <div class="card text-white">
+                            <h5 class="card-header bg-dark">Output</h5>
+                            <div class="card-body">
+                                <table class="table table-borderless">
+                                    <tr>
+                                        <td>Nama Penyewa</td>
+                                        <td><input class="form-control" type="text" name="onamapenyewa"></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Nama Barang</td>
+                                        <td><output class="form-control" type="text" name="onamabarang"></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Jumlah Menyewa</td>
+                                        <td><output class="form-control" type="text" name="ojumlahmenyewa"></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Total</td>
+                                        <td><output class="form-control" type="text" name="ototal"></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Dibayar</td>
+                                        <td><output class="form-control" type="text" name="odibayar"></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Kembalian</td>
+                                        <td><output class="form-control" type="text" name="okembalian"></td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <script>
+        function combo() {
+            var kodesewa = (document.forminput.inputkodesewa.value);
+            var namamenyewa = "";
+            var hargamenyewa = 0.0;
+
+            if (kodesewa == "ajeb1") {
+                namamenyewa = "PLAYSTATION 2";
+                hargamenyewa = 100000;
+            } else if (kodebarang == "ajeb2") {
+                namamenyewa = "PLAYSTATION 3";
+                hargamenyewa = 200000;
+            } else if (kodemenyewa == "ajeb3") {
+                namamenyewa = "PLAYSTATION 4";
+                hargamenyewa = 300000;
+            } else {
+                namamenyewa = "";
+                hargamenyewa = 0;
+            }
+
+            document.forminput.inputnamamenyewa.value = namamenyewa;
+            document.forminput.inputhargamenyewa.value = eval(hargamenyewa);
+        }
+
+        function hitungtotal() {
+            var hargamenyewa = (document.forminput.inputhargamenyewa.value);
+            var jumlahmenyewa = (document.forminput.inputjumlahmenyewa.value);
+            var total = 0.0;
+            
+
+            total = hargamenyewa * jumlahmenyewa;
+
+            document.forminput.inputtotal.value = eval(total);
+        }
+
+        function hitungkembalian() {
+            var total = (document.forminput.inputtotal.value);
+            var uangbayar = (document.forminput.inputbayar.value);
+            var kembalian = 0.0;
+
+            kembalian = uangbayar - total;
+
+            document.forminput.inputkembalian.value = eval(kembalian);
+        }
+
+        function simpan() {
+            document.forminput.onamapenyewa.value = document.forminput.inputnamapenyewa.value;
+            document.forminput.onamabarang.value = document.forminput.inputnamabarang.value;
+            document.forminput.ojumlahmenyewa.value = document.forminput.inputjumlahmenyewa.value;
+            document.forminput.ototal.value = document.forminput.inputtotal.value;
+            document.forminput.odibayar.value = document.forminput.inputbayar.value;
+            document.forminput.okembalian.value = document.forminput.inputkembalian.value;
+            document.forminput.otglmenyewa.value = document.forminput.inputtglmenyewa.value;
+        }
+    </script>
+</body>
+
+</html>
