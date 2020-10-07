@@ -22,15 +22,16 @@
         <h1>RENTAL PLAYSTATION</h1>
     </center>
 
-        
-          <center><div class="row">
+    <img src="https://s2.bukalapak.com/img/2349053971/w-1000/IMG_20171019_WA0001_scaled.jpg" alt="" width="1350px" height="270">
+
+    <center><div class="row">
             <div class="col" style="display: flex;text-align: center;">
               <div class="card" style="width: 18rem;">
-                <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw0QEhANEBAREBAQDQ8NFhYTFhUQEA4NFREWFhYRExYYHSggGBolHRUWITEhJS0rLi4uFx8zODMsNygtLisBCgoKDQ0NEA8PDisdFRkrKy0sNystLSsrKzcrLS03KysrKystKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIANwA3AMBIgACEQEDEQH/xAAcAAEAAQUBAQAAAAAAAAAAAAAAAgEDBAUHBgj/xABFEAACAQICBQgHBAgFBQEAAAABAgADEQQSBSEiMkIGBxMxQVJikhRRYXFygqKywtLwCBUjM0NTY4FzkaHi4yREg7PyF//EABcBAQEBAQAAAAAAAAAAAAAAAAABAgP/xAAaEQEBAAMBAQAAAAAAAAAAAAAAAQMREgIh/9oADAMBAAIRAxEAPwDuMREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQERIkwBNp5XSPL/RVCs2GqVmzJqYojPTRu5mXinlecTnBy5sDgn2typWU7nepUvF4pyqB9JaP5TaOxH7nFUXPqzhW8rTb3nyqew+qbHRunsdhrdBia1MepXbL5W2YH0zeSnCsBzp6Vp26QUa4Ha69GfMs9Ro7ndwjaq+HrUjbWUK1V+60DpsTzejeW+icRYU8XSDHhqHom+qb6lWVgGUhlPUVOYQL0SMlAREQEREBERAREQEREBERAREQERLbuACSQAOsk9UCRa2vsnIOcfnA6TNgcE5ybtWsp3+9SpN3e80xucXnBNfNgsE/7HdqVBmzVvCv9PxcU5xqHVq927AmNUXkZS8Cd4vKReAMRAgMkycHjsRQOajVqUj4HZPszGiB6zAc4+maNlNday+quit9S5Wnp9H88Z1DEYP3tRf7rfinLJSB3zR3OZoeqBmrNQJ7KyMtvmXMv+s9NgtKYauM1GtSqjwOrT5bMm9GrTOtWptvC4ZIH1aJKfNWj+WWlsPbo8ZWIHC56Vfqnp9H872PSwrUaNYdpXNSb70Dt0TnOjedzR76q9KvQb12Wqv07X0z02jeWGi8RqpYuiW9TN0beVoHoIkFcGxBBB7RJXgViIgIiICImPXrpTVqjsqqgzMWNlVe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" class="card-img-top" alt="...">
+                <img src="https://id-test-11.slatic.net/p/2/sony-playstation-ps2-seri-3-hardisk-160-gb-full-games-6137-7455005-9ae461817b3a03f4fbbb43e5b2c3aee2-catalog.jpg_340x340q80.jpg_.webp=" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">PLAYSTATION 2</h5>
                   <p class="card-text">Rp.200.000</p>
-                  <a href="" class="btn btn-primary">Sewa Sekarang</a>
+                  <a href="#" class="btn btn-primary">Sewa Sekarang</a>
                 </div>
               </div>
             </div>
@@ -68,7 +69,7 @@
                     <!-- BAG INPUT! -->
                     <div class="col-sm">
                         <div class="card text-white">
-                            <h5 class="card-header bg-dark">Form Input</h5>
+                            <h5 class="card-header bg-primary">Menyewa Barang</h5>
                             <div class="card-body">
                                 <table class="table table-borderless">
                                     <tr>
@@ -161,7 +162,7 @@
                     <!-- BAG OUTPUT! -->
                     <div class="col-sm">
                         <div class="card text-white">
-                            <h5 class="card-header bg-dark">Output</h5>
+                            <h5 class="card-header bg-primary">Struck Menyewa</h5>
                             <div class="card-body">
                                 <table class="table table-borderless">
                                     <tr>
@@ -207,17 +208,16 @@
             </div>
         </form>
     </div>
-
-    <div class="shadow-sm p-3 mb-5 bg-white rounded" style="float: right; margin-right: 30px; width: 745px;">
+    <div class="shadow-sm p-3 mb-5 bg-primary rounded" style="float: right; margin-right: 30px; width: 745px;">
         <center>
-            <strong>Harga</strong>
+            <strong>Harga Menyewa</strong>
             <br><br>
-            <p>100000/Sewa</p>
+            <p>100000/Sewa(ps2) 200000/Sewa(ps3) 300000/Sewa(ps4)</p>
             <hr>
-            <p>Setiap Menyewa playstation diatas 3, maka akan mendapatkan diskon sebesar 5%</p>
+            <p>Setiap Menyewa playstation diatas, maka akan mendapatkan diskon sebesar 20%</p>
         </center>
     </div>
-
+    
     <script>
         function combo() {
             var kodesewa = (document.forminput.inputkodesewa.value);
@@ -247,10 +247,18 @@
             var jumlahmenyewa = (document.forminput.inputjumlahmenyewa.value);
             var total = 0.0;
             
-
             total = hargamenyewa * jumlahmenyewa;
 
+            var hargaBdiskon= total;
+            var diskoon1= 20;
+            var diskon2 =100;
+            var diskonnya = total/diskon2*diskoon1;
+            var hargaUdiskon = hargaBdiskon-diskonnya
+
+            total=hargaUdiskon
+
             document.forminput.inputtotal.value = eval(total);
+
         }
 
         function hitungkembalian() {
