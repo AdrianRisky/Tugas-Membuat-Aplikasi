@@ -2,6 +2,13 @@
 <html lang="en">
 
 <head>
+     <!-- Required meta tags -->
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+     <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Penyewaan</title>
@@ -30,7 +37,7 @@
                 <img src="https://id-test-11.slatic.net/p/2/sony-playstation-ps2-seri-3-hardisk-160-gb-full-games-6137-7455005-9ae461817b3a03f4fbbb43e5b2c3aee2-catalog.jpg_340x340q80.jpg_.webp=" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">PLAYSTATION 2</h5>
-                  <p class="card-text">Rp.200.000</p>
+                  <p class="card-text"> <del>Rp.200.000</del> Rp.160.000</p>
                   <a href="#" class="btn btn-primary">Sewa Sekarang</a>
                 </div>
               </div>
@@ -41,7 +48,7 @@
                 <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxQTEhUSExIVFhUVFRgVFRcXFxUYGhUVFRUWFxUYFRUYHiggGBolGxUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDQ0NDw4NDjgZHxorLTcrKysrKy04KysrKysrKysrLTctKys3KysrLSsrKysrLSsrKysrKysrKysrKysrK//AABEIAMQBAgMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAAAAgMEBQYHAQj/xABAEAABAgMEBggEBQMDBQEAAAABAAIDBBEFITFBBhJRYXGBBxMiMpGh0fBCUrHBI2KCkuEUM3IkQ/EVY7LC0gj/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/EABYRAQEBAAAAAAAAAAAAAAAAAAABEf/aAAwDAQACEQMRAD8A7ihCEAhCEAhCEAhCEAolq2jDl4MSPFdqw4TS95oTRoFTcLyq/SvSmXkIXWx33mohw23viOGTG/c3DMr590z0zmLRd+IdSADVkBp7O4xD8buNwyGaDRaUdNcxEcWyMMQYeUSIA+I4bQzus51PBR7E6Z5uHQR2tijbQA+VFzt8k03glvD0TTpZ42O8ig+irD6XJGPQRC6C7Y68eI9Ft5C04MYVhRWPH5XA+S+OHPp3gRxH3U2QtKLCIMKK5pGFCUH2KhfONh9Lc9AoIhEZouo7Hxx810GxOmWUiUbGa6E7M4hB01CrbMt6XmBWDHY+uQN/7TerJAIQhAIQhAIQhAIQhAIQhAIQhAIQhAIQhAIQhAIQhAIQvCUHpKyGn2ncGzmUuiTDx+HCBp+uIfhZXmclD6SekBlns6qFqxJp4q1h7sIHB8X7NxPC9fP05NPixHRYrzEiPNXvcalx+w2AXBBIti1I01GdHmIhfEdmcGjJrG/A0bBzqb1DCF6ECglALwL0IPS2uKjvkWHAFp3XeSlBehBXuknjAh3G4+KjvJHeaRyu8QroBKogqZWacy+G8t/xK2Fh9Js/L0HW9Y0ZPv8Aqs7FkGG+lDtFyjRLOeO64Hc71QdrsTpqguo2YguYc3NvHgfVb6yNLJSZA6qYYScidU+BXyc/Wb3mEb8R5JyHELaOaS2t4IqEH2OCvV8uWJp9PS1AyOXN+V14810CxOmsXNmYH6meiDsaFmrG07kZmmpHaD8r+yfRaNjwRUEEbRePFApCEIBCEIBCEIBCEIBCEIBCEIBCEIAlYPpL0/bZ7OqhUfNRBVjcRCabusiD6NzpsqpPSRpwyzoNG0fMxAepZkBgYj9jB5m5fOM3NPixHxYry+JEcXPcby4n7ZAZAUQezEd8R7okR7nvedZ73Gpc44klICSvQgWlpCUECglBJCUECglNSUoIFgr0JASwgUvQkhOw27UHrWJRZXFKASgEEWJZzDlq8PTBRX2W74SD5H0VuAghBnnQ3MN4LTtw8wrmxtLJuWNYUd4Gwm48lJoo8Wz2OypvF3lgg3li9NEVtBMwQ8fM24+Xot9YvSRIzFB1vVuOT7vNfPcWynfC4Hcbj4qHEgObi0jfl4hB9dwJhrxVjmuG1pB+idXydZlvzEAgwoz28CVuLF6YZmHQR2NijbgfEIO8oWEsXpUko9A9xhO2OF3iFspKfhRRrQojHj8pBQSUIQgEIQgEIQgFldOdOIFmwx1lXxntcYUJuLyMC4/AytBU78VZ6U6QQpGWfMxT2WC5oxe89xjd5P3Xy1b1sRZyYiTMc1fEOGTGjusbXBoH3OaDy2LWizUZ8xHfrxIhq45AZNaPhaBcAotU2gFA6EoFNB6WHIHAlBNhKBQLBSgkBKBQLB9+8EppTY9+80oH37zQOJQKbDk4xA5DCfaU0337yTjUDjUsBIanG+/4QKASgENS2oPA1K1UsNS9VAzqo1U/qo1EEGLIMdi0V2i4+WKiRbF+R3J3qPRXOqvQ1Bl5iRiN7zDTaLx5YJchacWEawor2kbCVpwEzMScN/eaDvFx8QgtLF6V52DQRKRm4dq8+OK6Vot0jMm48OWMCIyJEDjUULG6gqQ45HxXD4Uq1ji5t+Ta302kfRdI6HbHMSPEm3DswgYbN8R4GsR/iyg/Wg7ChCEAhCqNLnxGyUyYT2siCBELXurRlGGrrgcBUoOB9Lmlv9bNmFDd/p5ZzmMpg+KLokTffVo3An4lhlYPsl7WNeGF0Mjsvh9ppAurtHNQ+rrgQVQ2hekLxAICEIFB6cbETKEEoOSgVEDiM0tsXaoJS9Hv+diZbEG1OgoHG+9ycb7/AIH3TYPvYlj379UDzT79N6caffrvTLXe9vryS2u97ED4Pv12Jxvv3kEwD795cU4138fwgkNPv0TrPf8ACjtd795p1rv5/lA5FjBja0JvAAaKkk4AIZEcMRTc4Ybg5tR4hKYffvJPsPv03IG5eZa8uAxbTWpeBrYUcLiVILU12hhqkG8ZeeYTksC0Xuq7PCh3NByQe6iNVTYEEPrWtchDoSN3VvIJ23FL/wCnuJcIZEQtaXOaKh7WjEmE8B11RUio3oK8hV0/MfCP1eiftGa1RRp7RHgNvFU+sgkwYbojmw2DWe9wa0bXOIA+q+i9FLLZKS0OXYa6g7bvniG97uZJ5UXKOjGx+0Zt4uFWQf8ALB7+VS0c11yScgtaoTVUIHkmI0EEEVBuIN4IO0JSS5BkLZ0PlCCYbXS7ryDAdqNqbz+F3DXO6/aua6WaNFocepgxjdRzS6C+l+trXkOOFLxnccF2afYszaclrVqg4JFk21pruYfljC7gIjR9QosxJObe5hA+YUc39wuXUrX0bDq3eSyszYD4ZJhlzD+U3HiM0GP6o4i/gkEK+jyp/wByECfmh/hu8O6fBQzKAmjYgJ+WIOrd+7unxQViFKmJYtNHtcw/mFx4HApkwj/wqG0L2iCEHiUx5GBSUIJDJraOY9Cn2xmnAjhh9bieZUBCC1r728cz5BLB97OeA5KqZFIwN2zEeBUmHO7RzHv7qCeD6/zTbxTjXefnx28rlFhR2nAjhh4A/wAp8Hz4+f8AKCQ1+fLhurs3BOsd7H22c1FD8/D+NvJONd5eHoD4lBMY/Dyp9Rv3lPsf5/XftKgh3n58RieJTrYmfL38w3BBODv5rt/NTHknB7rTDfu3KGyJ5b8OeXDFPMfh/wAeHy80VMbHOFzhTBwrUbATeBzCmTGkjoUs+G0auvQa2u8u1R/twq3w2HMVNyqusoKmlMfDd91n56b6x1chc3htO0lEJiRS4kk3lTrDsx0zGbCbgb3n5WDE8chvVY2puA4cV1nQ2wv6eF2h+K+hiHZsYOH1QaWy5ZrGtYwUawBrRsAWkkm3KrkoKvZaHRA9RCXqoQLXhC9QgixoVVWzErVXRCw2nfSFL2eeqDeumKV6tpADAcDFf8I3CpOxBNjyO5Vc5ZzAKuLWjCriAPErmM/0o2lFNWPhQWk3CHDaeWtErVZu2Z2ZmiIszEiRqC4upqtA+WGKADfS9B1mc0ea4VFCNooR4hZu0dFfy13UWIsibiwXB0CK9hHykgc24O4ELsuhlomdlnPeG9ZDiGE8tFGkhrXAgZY+IQcyj2PFh1DSQM2kazTxa65VcWVA70MsPzQjdzhu+1F26bsdpyVDP6NNOSDk5kie6WxNw7D/ANrseRKivh0NL2nY4EFby0tFdypZmzorRqntN+V4DhTdXBBmnNOYXlArSJKgZOYfy9pvNjjUcieCjGUca0AfTHU7wG10M0cPBURA0JbYbdpHgjU2HkbikkUxQPMkgcIg5j0KeFjvODmHmR9lDD9hT8OaIzQPGwY+UMO/xc37kJBlJmHjCi0/wLh5VCmS9qkZq4k7cI+JBmm2jQ0e0tPPzDrz4qXAmGuwIO6t44Cl3Ic1s4FsNcKPDXD8wB+qU6ypGN3pdgJzZVh8WkIMkHe/UE473HknGv8Ad9fUjcKBaR+hkI/2JmIw5NiUiN8bnDkVVTmjc3CqeqEVo+KCde7fDNH/APkoIrH+XDyIubwFSnWv9fYOe9ygMjiureHDFpqHN5Eaw4UCJiZ1W1GJ7uFOOwU5lAWrOfAMu9vOQJ+KmOxV4cmnH36q60WsQzUWhuhtviHdk0byg0PR/YGu4TMQdkH8IHM4a/AZLqUlLqFZ0qAA1ooAAABkBgFoZKBuQSpODuVlDam4MNSEAhCEAhC8Jogz+nOk7LPlHzDqF3dhMr34rgdVvDM7gV8tzMV8VznvcXRHuL3uOL3OvJJ58lrukfSY2nOkQz/poFWQqYPPxxeZFBuA2lZmNADTQmlbq+uwoJMs+NEgmFSFqAauteLhfcBcD+ZRZeJrw9R8YNa3K68DacXBRnyeQeKOuNDiOWKu4dnw6AFgNMzeqIklFBoADuu8CRktnoNpcyz3R4boLokKLFDnFjgHMc1uqdVpucK7xgsrHhan9qgceZaNrQcSmYEy0NEMwiaG47a7X+d6D6AsrSGTmqCFGAc4VEOIDDeeAdc79JKnzEhuXABaDiNV3baMA+hIwwNN1OC0liaYRoOqIcZ7W1Os2L+LCANSKA9pt91GkCig6VHs4bFUzlitOSj2Z0lwHnVmITof/chgvYTvae23zV7F0gkdUP8A6yBQ4dsV4auIPEIMVP6MA4BZue0aIwGF43cKrY25p3Lw3asFjo/zPFWsG5pIq4+SZkdKpaNc9r4R2uAc39zcOYQc8mZB4ue0PH5wXEcH1Dx+6m5QHSoyLmHY78Rv7gA4ftPFdjmrEY8VFCDeCLwRtBzWetDRcZBBzaJKuA1tWrfnYQ5vOnd4GiY1K4EFa+bsB7DUVB2ioPiFBmrOYYWs7WMYP7tA0OhUvrEaO8DQgmt1QqM2QvREIU+JLUwcRuii6m0RG3U40UePLloBc0tBwdi08HC4oFQp1wVlLWuRmqYwsxfwSKINrJW5vV7J27vXMGxSM1KgWiRmg6rGjQJhurHhw4g2vAJG8O7zeIK5da8SEYz+oDhCrRms4vNBnrOvoTeBsonpi13FhYD3rify5jmq6EwucGtBLnGgAxJOxQSLOknxojYTBVzvBozJ3LsmjtkNgQ2w2DDE5udmSqXQ7R8QGVN8R17z/wCrdw81upGXwQS5KXV5KwVHk4Ks4bUCmhKQhAIQhALmHTbpgZeAJGC6keZHapjDgYOO4vvaN2tsW90gtmHKS8SZimjIbS47SfhaN5NAOK+ZJqfiTceLPTHfiOqBkxuDWN3AABAzAhCCymZVfHi1Ts3MaxKhucqBoqHcq0xAuKkxJyKw0aQ4ZH1UGA7tEi5TZgBtDQcwoJks4OMN57JZV0V5NxFMPexKY4RHVDtRrnV1qV1Wk404Khix3OIBwHwgUHhmrKHPinabQ7W4eBwQXtpSkJjmsgROtu7bz82Fwpc3MXkpuGyK2uo9t+RBFeOXkqmXnCwk0qNWrt1SaADdRTINqteQ1pFXXX3AcTsVHvWmJEDHFsOppkBdiTtJpcMFJn5ZsEM7QLn1/D7Ou1owcS0kUOCri3XETrA06jyC7Ig315KdZNjQ4jDEMYM2DvUYCQSTlQ0urgUEmyrRlgT/AFDXhwrSgcatp2RDDSL/ABVhZ0PX7VC0G9odTWAy1qXG6ioZWKG0e4F0MGhc0E3Ya1BfRXsG0YL9RkvUxLy5wr1YbQ0rrfFWmGVVFkb3oze+LCmmPFOqmi1grUBjoTC2h30Lv1LTxZHcqbofmmRoU5q0IE0BUZ6svBZ4Va7xW5fLIjHTNlg5Kkn9Hmmty6HFlAocaSQcmn9GSK098ln5ixnMJ1QW1xLDQH/Jp7LuYXao9n7lVzVkA5IOLRZDawE/Mz8N3NtNRx4AKI6XOAc1x+V46t/C86p5OXV7Q0ba7JZ2f0bcMqjYb0GCjQtU0cHMOxwN/ApDodOG0LTOsxzKDtBle02ge2mdGuuBVfGspzzRjGsNRV2sQwtrmw1IN+RyNyaKiE0kgAEkkAAXkk4ADMroeiWjwg9t4BjEUOYhg/C05naeSbsCwmQjVp6yKcYtCA0ZtgtN43vN5yoMdzZVn0AuQTLOlcFopOXTEjKq6l4VEDsGHRPheNCUgEIQgEIQg4z092g50SUlK0hnXjv/ADObRrByq48wuVzkz8IwC7f0vaLGchNfD/vQCSzLXa7vsrkbgRvG9cCmIZYS19WuFzmuBDgd4QIe9MRH1uF5OSWyE55owE71tdFtDnOIcRUnPZwQZNtlxGt16a3zAYgfdJmIxIwA5rukhoZcKhKndCIbsYbSd7Qg+foDHF1wJI2CvinHuqCM12Gd0S1e62nAUWatXRuoNWX0NDmCgx8u6uFzqUN1Q4bwkarG1JIFNgdXkCiRORuIuI2EXFMTyCXDtQmjGMAhtyOLicSXJykI1qHNriBWh4gXHwVfJsuqpLMVRfy8wA3sBxAwo131pQKotW1YhBa0CGDc6lNZw3nLktFKNpBJ3LG2k6rqC8k3DacgoO8f/niScyz4sQigizDtTe1jGNqP1aw/SuqUWY6PZHqJKBAH+2wNO92LzzcSea1CBssTboKkLwoIL5dRYsmrctSHQ0GejSO5QI9mg5LWOgqO+WQYeZsJpyUIaOCuC37pLckCSQZWSscNyV7KyVFYsk1LhwKIGpaAprGoaxLQCEIQCEIQCEIQRJ2WDgsZbeiDIpqWgneAt6QvCwIOYyOgTGurq+S2dl2KyGBQBXQhhLQMtgBePlwU+hBWR7NByVRO2A1wNy1RSSxBxXSfo3ZFcYjCYbzeS0XO3ubt3iiwNraFxodS+KCBsYQfqvp6PKAjBYbTSy+waDag+eZfuhSIAvCjwhdTYSPNSpMVeEGomezLjgs7o3K9dPQWZB+ueDO19QFf6RP1YIG5I6KZTWmnxPlAaOJNT9Ag+irCZSG0blaqBZg7I4KegEIQgEIQg8ovNVKQgQWLzUTiECAxKovUIBCEIBCEIBCEIBCEIBCEIBCEIBCEIBCEIBUmkMrrQyrtR52HVpCD5BmIRZEiMNxbEe0jg8hSrKbWI0b1tOkzRRzY7piG0kP/ALjRjUXazdt1KhYKBMOgv1m4jCrT9EF9prGoGtGxajohkKNDqd8l3LAeQWElJGNORQX6xBN527gF3rQawuqYKilwQbaRbRoUpIhNoEtAIQhAIQhAIQhAIQhAIQhAIQhAIQhAIQhAIQhAIQhAIQhAIQhAIQhALxzaoQgrZ+w4UYUeDyI9Fn4/RnJONT1vJzP/AJXiEE6ztB5WCasD+Zb9mrQQZZrbgvUIHUIQgEIQgEIQgEIQgEIQgEIQgEIQgEIQgEIQgEIQg//Z" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">PLAYSTATION 3</h5>
-                  <p class="card-text">Rp.300.000</p>
+                  <p class="card-text"> <del>Rp.300.000</del> Rp.240.000</p>
                   <a href="#" class="btn btn-primary">Sewa Sekarang</a>
                 </div>
               </div>
@@ -52,7 +59,7 @@
                 <img src="data:image/jpeg;base64,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"  class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">PLAYSTATION 4</h5>
-                  <p class="card-text">Rp.400.000</p>
+                  <p class="card-text"> <del>Rp.400.000</del> Rp.320.000</p>
                   <a href="#" class="btn btn-primary">Sewa Sekarang</a>
                 </div>
             </div>
@@ -86,7 +93,7 @@
 
                                     <tr>
                                         <td>Nama Penyewa:</td>
-                                        <td><input class="form-control" type="text" name="inputnamapenyewa"></td>
+                                        <td><input class="form-control" type="text" name="inputnamapenyewa" placeholder="Masukan Nama Anda"></td>
                                     </tr>
 
                                     <tr>
@@ -103,7 +110,7 @@
 
                                     <tr>
                                         <td>Jumlah Menyewa:</td>
-                                        <td><input class="form-control" type="number" name="inputjumlahmenyewa">
+                                        <td><input class="form-control" type="number" name="inputjumlahmenyewa" placeholder="Masukan Jumlah Sewa">
                                         </td>
                                     </tr>
 
@@ -125,7 +132,7 @@
 
                                     <tr>
                                         <td>Bayar:</td>
-                                        <td><input class="form-control" type="text" name="inputbayar"></td>
+                                        <td><input class="form-control" type="text" name="inputbayar" placeholder="Masukan Pembayaran"></td>
                                     </tr>
 
                                     <td colspan="2">
@@ -212,7 +219,7 @@
         <center>
             <strong>Harga Menyewa</strong>
             <br><br>
-            <p>100000/Sewa(ps2) 200000/Sewa(ps3) 300000/Sewa(ps4)</p>
+            <p>200000/Sewa(ps2) 300000/Sewa(ps3) 400000/Sewa(ps4)</p>
             <hr>
             <p>Setiap Menyewa playstation diatas, maka akan mendapatkan diskon sebesar 20%</p>
         </center>
@@ -226,13 +233,13 @@
 
             if (kodesewa == "ajeb1") {
                 namabarang = "PLAYSTATION 2";
-                hargamenyewa = 100000;
+                hargamenyewa = 200000;
             } else if (kodesewa == "ajeb2") {
                 namabarang = "PLAYSTATION 3";
-                hargamenyewa = 200000;
+                hargamenyewa = 300000;
             } else if (kodesewa == "ajeb3") {
                 namabarang = "PLAYSTATION 4";
-                hargamenyewa = 300000;
+                hargamenyewa = 400000;
             } else {
                 namabarang = "";
                 hargamenyewa = 0;
@@ -281,6 +288,148 @@
             document.forminput.otglmenyewa.value = document.forminput.inputtglmenyewa.value;
         }
     </script>
-</body>
 
+<div class="card bg-transparant mb-3 shadow" style="width: 675px; margin-left: 40px; float: left;">
+    <div class="card-header text-white rounded" style="background-color: dodgerblue;"><h3 style="font-family: Arial, Helvetica, sans-serif; text-align: center;">Pengembalian Sewa</h3></div>
+    <div class="card-body">
+      <div class="form-group row ">
+        <label for="penyewaa" class="col-sm-2 col-form-label">Penyewa</label>
+        <div class="col-sm-4">
+          <input type="text" class="form-control" id="penyewa" placeholder="Masukkan Nama" style="width: 350px;">
+        </div>
+    </div>
+    <div class="form-group row ">
+        <label for="tanggall" class="col-sm-2 col-form-label">Tanggal</label>
+        <div class="col-sm-4">
+          <input type="date" class="form-control" id="tanggal" style="width: 350px;">
+        </div>
+    </div>
+    <div class="form-group row">
+      <label for="barangg" class="col-sm-2 col-form-label">Barang</label>
+      <div class="col-sm-4">
+      <select class="form-control" id="barang" name="barang" style="width: 350px;">
+        <option selected>Pilih Layanan</option>
+        <option value="PLAYSTATION2">PLAYSTATION 2</option>
+        <option value="PLAYSTATION3">PLAYSTATION 3</option>
+        <option value="PLAYSTATION4">PLAYSTATION 4</option>
+      </select>
+      </div>
+    </div>
+    <form name="hitung diskon" method="POST">
+    <div class="form-group row ">
+        <label for="hargaa" class="col-sm-2 col-form-label">Harga (Rp.)</label>
+        <div class="col-sm-4">
+          <input type="number" class="form-control" id="harga" name="harga" placeholder="Masukkan Harga" style="width: 350px;">
+        </div>
+    </div>
+    <div class="form-group row ">
+        <label for="diskonn" class="col-sm-2 col-form-label">Diskon (%)</label>
+        <div class="col-sm-4">
+          <input type="number" class="form-control" id="diskon" name="diskon" placeholder="Masukkan Diskon" style="width: 350px;">
+        </div>
+    </div>
+    
+    <div class="form-group row mt-3">
+        <label for="totall" class="col-sm-2 col-form-label">Total</label>
+        <div class="col-sm-4">
+          <input type="number" class="form-control" id="total" name="total" placeholder="Total" style="width: 350px;">
+        </div>
+    </div>
+    </form>
+    <button type="button" class="btn text-white" style="margin-left: 355px; margin-top: 20px; background-color: dodgerblue;" onclick="add()">Tambahkan</button>
+    </div>
+  </div>
+  <table class="table table-sm rounded shadow rounded" style=" width: 820px; float: right; margin-right: 30px; text-align: center;">
+    <thead>
+      <tr style="background-color: dodgerblue; color: white;">
+        <th scope="col">No</th>
+        <th scope="col">Penyewa</th>
+        <th scope="col">Tanggal</th>
+        <th scope="col">Barang</th>
+        <th scope="col">Harga (Rp.)</th>
+        <th scope="col">Diskon (%)</th>
+        <th scope="col">Total</th>
+        <th scope="col">Modify</th>
+      </tr>
+    </thead>
+    <tbody id="tampildata">
+    
+    </tbody>
+  </table>
+
+
+
+<script>
+ var penyewa = []
+ var tanggal = []
+ var barang = []
+ var harga = []
+ var diskon = []
+ var total = []
+
+ var tampil = document.getElementById('tampildata')
+
+    function showData() {
+      tampil.innerHTML = ""
+
+      for(i = 0;i<penyewa.length;i++){
+        var nodata = i+1
+
+        tampil.innerHTML += "<tr>"+
+          "<th>"+nodata+"</th>"+
+          "<td>"+penyewa[i]+"</td>"+
+          "<td>"+tanggal[i]+"</td>"+
+          "<td>"+barang[i]+"</td>"+
+          "<td>"+harga[i]+"</td>"+
+          "<td>"+diskon[i]+"</td>"+
+          "<td>"+total[i]+"</td>"+
+          "<td>"+
+            "<button class='btn btn-transparent shadow-sm' href='#' onclick='hapus("+i+")' type='button'>Delete</button>"+
+          "</td>"+
+        "</tr>"
+      }
+    }
+    showData()
+
+    function add() {
+        var penyewabaru = document.getElementById('penyewa').value
+        var tanggalbaru = document.getElementById('tanggal').value
+        var barangbaru = document.getElementById('barang').value
+        var hargabaru = document.getElementById('harga').value
+        var diskonbaru = document.getElementById('diskon').value
+        var totalbaru = document.getElementById('total').value
+
+        penyewa.push(penyewabaru)
+        tanggal.push(tanggalbaru)
+        barang.push(barangbaru)
+        harga.push(hargabaru)
+        diskon.push(diskonbaru)
+        total.push(totalbaru)
+
+        showData()
+
+    }
+
+    function hapus(drop) {
+        var penyewahapus = penyewa.splice(drop,1);
+        var tanggalhapus = tanggal.splice(drop,1);
+        var baranghapus = barang.splice(drop,1);
+        var hargahapus = harga.splice(drop,1);
+        var diskonhapus = diskon.splice(drop,1);
+        var totalhapus = total.splice(drop,1);
+
+        showData()
+
+    }
+
+
+
+</script>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
 </html>
